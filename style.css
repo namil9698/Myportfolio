@@ -1,0 +1,142 @@
+
+:root {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 62.5%;
+}
+
+
+header,
+section {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+footer {
+    width:100vw;
+    height: 30vh;
+    box-sizing: border-box;
+}
+
+/* header */
+
+.header{
+    background: rgb(54,154,217);
+    background: linear-gradient(0deg, rgba(54,154,217,1) 0%, rgba(242,240,216,1) 100%);
+}
+
+.header__wrap {
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header__title{
+    margin-top: -10rem;
+    display: inline-block;
+    font-size: 20rem;
+    color: #fff;
+    transform: rotate(-30deg);
+}
+
+.header__title-sub {
+    margin-top: 20rem;
+    margin-left: -18rem;
+    z-index: 1;
+}
+
+.header__title-sub__sub1 {
+    color: #0339A6;
+    font-size: 10rem;
+}
+
+.header__title-sub__sub2 {
+    color: #2b2b2b;
+    font-size: 3rem;
+    margin-left: -5rem;
+    transform: skew(20deg);
+}
+/* about */
+.about{
+    background-color: white;
+}
+
+.about__wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.about__intro {
+  border-radius: 132px 18px 132px 18px;
+  overflow: hidden;
+}
+
+.about__skills{
+    border-radius: 132px 18px 132px 18px;
+    overflow: hidden;
+}
+
+.about__title{
+    position: absolute;
+    font-size: 8rem;  
+    transform: rotate(-30deg);
+    color: #000;
+}
+
+.about__content {
+    box-sizing: border-box;
+    width: 70rem;
+    height: 80rem;
+    padding: 8rem 3rem;
+}
+
+
+.about__content--left{
+    background-color: #0339a6;
+    text-align: end;
+    line-height: 4rem;
+}
+
+.about__content--right{
+    background-color: #1f5aa6;
+    text-align: start;
+    line-height: 3rem;
+}
+
+
+.about__content h2 {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 8rem;
+    font-weight: bold;
+    color: #f2f0d8;
+    margin: 6rem;
+}
+
+.about__content p {
+    margin: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    color: rgb(219, 219, 219);
+}
+
+.about__content b{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.project {
+    background-color: blue;
+}
+
+.footer {
+    background-color: green;
+}
+
+
+

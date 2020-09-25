@@ -6,16 +6,17 @@
 
 
 header,
-section {
+section,
+footer {
     width: 100vw;
     height: 100vh;
+    position: relative;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 footer {
-    width:100vw;
     height: 30vh;
-    box-sizing: border-box;
 }
 
 /* header */
@@ -130,12 +131,72 @@ footer {
     color: #fff;
 }
 
+/* project */
 .project {
-    background-color: blue;
+    
+
 }
 
+.project__number {
+    color: white;
+    font-size: 30rem;
+    position: absolute;
+    margin: 50px;
+}
+
+.layout {
+    position: absolute;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 20rem 20rem 20rem 20rem;
+    background-color:inherit;
+    filter: brightness(80%);
+}
+
+.layout--circle1 {
+    left: 0;
+    bottom: 0;
+    transform: scale(5);
+}
+
+.layout--circle2{
+    right: 0;
+    top: 0;
+    transform: scale(3);
+}
+
+
+.project--first {
+    background-color: #f2f0d8;
+}
+.project__number--first{
+    text-shadow: 1rem 1rem  #b9b8a7 ;
+}
+
+
+.project--second {
+    background-color: #369ad9;
+}
+.project__number--second{
+    text-shadow: 1rem 1rem  #24668f ;
+}
+
+.project--third{
+    background-color: #1f5aa6;
+}
+.project__number--third {
+    text-shadow: 1rem 1rem  #0f2f5a ;
+}
+
+
+.number1 {
+    width: 20rem;
+}
+
+
+
 .footer {
-    background-color: green;
+    background-color: #0339a6;
 }
 
 
